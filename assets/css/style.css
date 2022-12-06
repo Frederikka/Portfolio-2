@@ -25,6 +25,10 @@ body {
 
 /* --- Quiz layout */
 
+.begin-screen {
+    align-items: center;
+}
+
 .quiz-area {
     background-color: #209BA5;
     box-sizing: border-box;
@@ -62,7 +66,12 @@ body {
     padding: 5 2px;
 }
 
+.hide {
+	display: none;
+}
+
 #btn-next {
+    font-size: 1.3em;
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -80,6 +89,10 @@ body {
     font-weight: bold;
     padding: 5px;
     
+}
+
+#begin-button {
+	font-size: 1.2em;
 }
 /* --- Media queries */
 
