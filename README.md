@@ -5,13 +5,13 @@ Welcome to Brain-Train. This is a simplistic game meant to test some quiz knowle
 ## Features
 
 There is a start button which triggers its own function to start the quiz.
-The login/register button.
-The quiz area which features:
-number of question being attempted
-question itself
-question options to select from
-next button
-tally area to keep track of score
+There is a begin button which triggers the quiz area to populate.
+The quiz area features:
+-number of question being attempted
+-question itself
+-question options to select from
+-next button
+-tally area to keep track of score
 
 ## User experience (UX)
 
@@ -47,6 +47,11 @@ https://jigsaw.w3.org/css-validator/#validate_by_input
 
 https://jshint.com/
 
+https://pngtree.com/
+
+https://fonts.google.com/
+
+love maths code for increment score
 
 
 Code instititute LMS

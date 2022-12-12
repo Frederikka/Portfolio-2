@@ -6,7 +6,10 @@ body {
 
 /* --- Heading */
 
-.heading {
+#404 {
+    text-align: center;
+}
+heading {
     text-align: center;
     font-size: 3rem;
 }
@@ -14,6 +17,7 @@ body {
 #heading-logo {
     width: 100px;
     height: 100px;
+    
 }
 
 #timer-logo {
@@ -27,6 +31,8 @@ body {
 
 .begin-screen {
     align-items: center;
+	width: 100%;
+ 
 }
 
 .quiz-area {
@@ -38,13 +44,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    display: none;
 }
 
 .question-number-area {
     text-align: left;
 }
 
-.question-area {
+#question-area {
     text-align: left;
 }
 
@@ -66,8 +73,8 @@ body {
     padding: 5 2px;
 }
 
-.hide {
-	display: none;
+.scores-area {
+    display: none;
 }
 
 #btn-next {
@@ -93,6 +100,7 @@ body {
 
 #begin-button {
 	font-size: 1.2em;
+    
 }
 /* --- Media queries */
 
